@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Audio Demo for CodeFest by Zvuk</title>
+    <link rel="stylesheet" href="/styles/style.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+    </style>
+  </head>
+  <body>
+    <header>
+      <img
+        src="/assets/zvuk-logo.svg"
+        width="120"
+        height="80"
+        alt="Логотип Звук"
+      />
+      <img
+        src="/assets/codefest-logo.svg"
+        width="100"
+        height="80"
+        alt="Логотип CodeFest14"
+      />
+      <h1>HTML5 Audio</h1>
+    </header>
+    <main>
+      <!-- Используем стандрный элемент HTML audio -->
+      <div class="workBlock">
+        <!-- 
+          Атрибуты:
+          - src — путь к аудиофайлу;
+          - controls — стандартный набор элементов управления;
+          - loop — флаг на повторение воспроизведения аудиофайла;
+          - muted — флаг для отключения громкости;
+          - preload — определяет, как аудиофайл будет загружаться на страницу. 
+            Возможные значения: none, metadata, auto (по умолчанию);
+        -->
+        <!-- <audio src="./assets/nokia-ringtone.mp3" controls></audio> -->
+
+        <!-- 
+          На элемент можно накладывать собственные стили, но
+          только такие, которые влияют на блок как на единое целое.
+        -->
+        <!-- <audio
+          class="customHTMLAudio"
+          src="./assets/nokia-ringtone.mp3"
+          controls
+        ></audio> -->
+
+        <!-- <audio src="./assets/nokia-ringtone.mp3" controls>
+          Ваш браузер не поддерживает тег audio
+        </audio> -->
+
+        <!-- <audio src="./assets/nokia-ringtone.mp3">
+          <p>Ваш браузер не поддерживает тег audio</p>
+          <source src="./assets/nokia-ringtone.mp3" type="audio/mpeg" />
+          <source src="./assets/nokia-ringtone.ogg" type="audio/ogg" />
+        </audio> -->
+
+        <!-- <audio controls>
+          <source src="./assets/nokia-ringtone.mp3" type="audio/mpeg">
+          <source src="./assets/nokia-ringtone.ogg" type="audio/ogg">
+          <p>Ваш браузер не поддерживает тег audio</p>
+        </audio> -->
+
+        <!-- <audio src="./assets/nokia-ringtone.mp3" controls>
+          Ваш браузер не поддерживает встроенное аудио. Попробуйте скачать его
+          <a href="./assets/nokia-ringtone.mp3" download>по ссылке</a>.
+        </audio> -->
+      </div>
+
+      <!-- Используем кастомный плеер с помощью JavaScript -->
+      <!-- <div class="workBlock">
+        <button id="customPlayer" class="play" title="Player" />
+      </div>
+
+      <script src="./script.js"></script> -->
+    </main>
+  </body>
+</html>
