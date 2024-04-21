@@ -19,10 +19,10 @@
 
 /* Клас для состояния play */
 .play {
-  background-image: url("./assets/play-icon.svg");
+  background-image: url("/assets/play-icon.svg");
 }
 
 /* Клас для состояния pause */
 .pause {
-  background-image: url("./assets/pause-icon.svg");
+  background-image: url("/assets/pause-icon.svg");
 }
