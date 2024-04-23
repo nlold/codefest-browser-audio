@@ -2,12 +2,12 @@
 const customPlayer = document.getElementById("customPlayer");
 
 // Создаем элемент <audio> и устанавливаем источник
-// const audio = document.createElement("audio");
-// audio.src = "./assets/nokia-ringtone.mp3";
+const audio = document.createElement("audio");
+audio.src = "./nokia-ringtone.mp3";
 
 // Создаем объект для работы с аудио
 // Подробнее — https://developer.mozilla.org/en-US/docs/Web/API/HTMLAudioElement
-const audio = new Audio("./nokia-ringtone.mp3");
+// const audio = new Audio("./nokia-ringtone.mp3");
 
 // Обработчик клика по кнопке, который
 // запускает или ставит на паузу аудио
