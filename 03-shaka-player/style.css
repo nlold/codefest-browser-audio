@@ -1,0 +1,20 @@
+/* Кастомная кнопка для работы с аудио */
+#customPlayer {
+  cursor: pointer;
+
+  width: 100px;
+  height: 100px;
+
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Клас для состояния play */
+.play {
+  background-image: url("/assets/play-icon.svg");
+}
+
+/* Клас для состояния pause */
+.pause {
+  background-image: url("/assets/pause-icon.svg");
+}
